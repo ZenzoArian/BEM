@@ -1,0 +1,146 @@
+img {
+  width: 14em;
+  transition: width 20s ease;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.text {
+  font-family: Arial, sans-serif;
+  color: #0c5c51;
+}
+.text__center{
+  text-align: center;
+}
+
+.header--text {
+  font-size: 5em;
+  text-align: center;
+}
+
+.page--container {
+  margin: 0 auto;
+  border: solid 1px #f2f2f9;
+  border-radius: 10px;
+  width: 60em;
+  height: auto;
+  background-color: #f2f2f3;
+}
+
+.secondPage{
+  display: block;
+  margin: 0 auto;
+  width: 34em;
+  margin-bottom: 15em;
+}
+
+.tree__2{
+  margin-left: 30%;
+  width: 8em;
+}
+.tree__3{
+  margin-left: 50%;
+  width: 10em;
+}
+
+.earth {
+  height: 15em;
+  background-color: darkBlue;
+  transition: 1s ease;
+}
+
+.earth--sky {
+  padding-top: 1em;
+}
+
+.earth--middle {
+  position: relative;
+}
+
+.earth--ground {
+  background-color: darkGreen;
+}
+
+.hover:hover .earth {
+  background-color: #7878ff;
+}
+
+.hover:hover .earth--ground {
+  background-color: green;
+}
+
+.hover:hover .tree {
+  width: 50%;
+}
+
+.round {
+  display: block;
+  width: 8em;
+  height: 8em;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.round__sun {
+  background-color: orange;
+  display: none;
+}
+
+.round__moon {
+  background-color: lightgray;
+}
+
+.hover:hover .round__sun {
+  display: block;
+}
+
+.hover:hover .round__moon {
+  display: none;
+}
+
+.buttons {
+  display: inline-flex;
+  padding: 8px 0;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+  background-color: #EEE;
+  border-radius: 10px;
+}
+
+.buttons--down {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  float: right;
+}
+
+.button {
+  width: 250px;
+  height: 66px;
+  background-color: green;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  border-radius: 10px
+}
+
+.button:hover {
+  background-color: darkGreen;
+}
+
+.but__BigText {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.button--red {
+  background-color: red;
+}
+
+.button--red:hover {
+  background-color: darkRed;
+}
